@@ -1,10 +1,15 @@
-def bubbleSort(array):
-    for i in range(len(array)):
-        for j in range(len(array) - i -1):
-            if array[j] > array[j+1]:
-                array[j],array[j+1] = array[j+1],array[j]
-    return array
+score =50
+if score > 90:
+    print('youxiu')
+elif score >80:
+    print('lianghao')
+elif score < 60:
+    print('bujike')
+else:
+    print('jige')
 
 
-num = [1,4,55,3,22,54,32,56,34,59]
-print(bubbleSort(num))
+lang = 'kr'
+greeing = {'cn':'你好','en':'hello','ru':'dada'}
+
+print(greeing.get(lang,'bucunzai'))
