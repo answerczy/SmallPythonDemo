@@ -24,5 +24,6 @@ c1.send_message('jim','i want to study python!')
 c2 = Cellphone('IPHONE',4343)
 
 print(c1+c2)
+c1
 
 Cellphone.on(c1) #通过类调用的时候传入实例对象
